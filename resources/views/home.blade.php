@@ -1,16 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    @vite('resources/css/app.css')
+@extends('layouts.app')
 
-</head>
-<body>
-    <h1 class="text-3xl font-bold underline text-blue-700">
-      Hello world!
-    </h1>
-</body>
-</html>
+@section('title','Home')
+
+@section('content')
+  <div class="rounded-lg bg-white p-8 shadow">
+    <h1 class="text-3xl font-bold text-blue-700">Creative Tech Park</h1>
+    <p class="mt-4 text-gray-600">Welcome to your e-commerce demo. Use the navigation to manage products and categories.</p>
+  </div>
+@endsection
